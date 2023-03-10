@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public class McFunctions {
 
-    @FunctionName("HttpExample")
+    @FunctionName("test")
     public HttpResponseMessage run(
             @HttpTrigger(
                     name = "req",
