@@ -37,7 +37,7 @@ jobs:
         id: fa
         with:
           app-name: 'test-fun-mc'
-          slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_cc3c96b6862a4e64a0bf54288508d6dc }}
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E0301E366E14A8581D625826CDBE1F1 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
